@@ -39,7 +39,7 @@ else:
             "Content-Type": "application/json",
         }
         payload = {
-            "model": "gemini-free",  # Replace with the appropriate model name for Gemini
+            "model": "gemini-1.5-pro",  # Replace with the appropriate model name for Gemini ##DONE
             "messages": [
                 {"role": m["role"], "content": m["content"]}
                 for m in st.session_state.messages
